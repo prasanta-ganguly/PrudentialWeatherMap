@@ -13,3 +13,4 @@ Apart from that each test can be run individually as testNG test.
 8. Extent report will be generated if the each test is run individually or run in batch through pom.xml
 9. Custom listener has been used to send test pass fail status to extent report.
 10. log4j is also added. Three log file generated.
+11. Use bellow git repository with master branch to get this code to Jenkins CI pipeline
