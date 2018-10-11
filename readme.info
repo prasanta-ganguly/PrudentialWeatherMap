@@ -1,0 +1,15 @@
+Useful Instruction:
+
+1. This is a Maven project
+2. Import this project to eclipse (check maven dependency if required).
+Right click on pom.xml and run Maven clean.
+After successful build run Maven install to run the tests.
+Apart from that each test can be run individually as testNG test.
+3. There are 4 test case files that contain 5 tests.
+4. First three test is designed as given tasks.
+5. Last test is made as an additional test which is converting temperature unit from °C to °F
+6. The framework is made as page object concept.
+7. Aventstack extent report will be generated once the test run is completed.
+8. Extent report will be generated if the each test is run individually or run in batch through pom.xml
+9. Custom listener has been used to send test pass fail status to extent report.
+10. log4j is also added. Three log file generated.

@@ -1,0 +1,4 @@
+com\owm\testcases\SearchWeatherForValidCityTest.class
+com\owm\testcases\SearchWeatherForInvalidCityTest.class
+com\owm\testcases\WeatherMapHomePageTest.class
+com\owm\testcases\CentigradeToFarenheitTest.class

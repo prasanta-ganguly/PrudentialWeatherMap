@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Prudential Weathermap Test" duration-ms="182751" started-at="2018-10-11T11:05:04Z" finished-at="2018-10-11T11:08:07Z">
+    <groups>
+    </groups>
+    <test name="Prudential Weathermap Test Cases" duration-ms="182751" started-at="2018-10-11T11:05:04Z" finished-at="2018-10-11T11:08:07Z">
+      <class name="com.owm.testcases.SearchWeatherForInvalidCityTest">
+        <test-method status="PASS" signature="getMethodNameInReport(java.lang.reflect.Method)[pri:0, instance:com.owm.testcases.SearchWeatherForInvalidCityTest@13c78c0b]" name="getMethodNameInReport" is-config="true" duration-ms="1" started-at="2018-10-11T16:35:50Z" finished-at="2018-10-11T16:35:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.owm.testcases.SearchWeatherForInvalidCityTest.searchInvalidCityWeatherTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodNameInReport -->
+        <test-method status="PASS" signature="beforeTestTasks()[pri:0, instance:com.owm.testcases.SearchWeatherForInvalidCityTest@13c78c0b]" name="beforeTestTasks" is-config="true" duration-ms="17175" started-at="2018-10-11T16:35:50Z" finished-at="2018-10-11T16:36:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestTasks -->
+        <test-method status="PASS" signature="searchInvalidCityWeatherTest()[pri:0, instance:com.owm.testcases.SearchWeatherForInvalidCityTest@13c78c0b]" name="searchInvalidCityWeatherTest" duration-ms="28475" started-at="2018-10-11T16:36:07Z" finished-at="2018-10-11T16:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchInvalidCityWeatherTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.owm.testcases.SearchWeatherForInvalidCityTest@13c78c0b]" name="tearDown" is-config="true" duration-ms="749" started-at="2018-10-11T16:36:36Z" finished-at="2018-10-11T16:36:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.owm.testcases.SearchWeatherForInvalidCityTest -->
+      <class name="com.owm.testcases.SearchWeatherForValidCityTest">
+        <test-method status="PASS" signature="getMethodNameInReport(java.lang.reflect.Method)[pri:0, instance:com.owm.testcases.SearchWeatherForValidCityTest@3dd3bcd]" name="getMethodNameInReport" is-config="true" duration-ms="1" started-at="2018-10-11T16:36:36Z" finished-at="2018-10-11T16:36:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.owm.testcases.SearchWeatherForValidCityTest.searchValidCityWeatherTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodNameInReport -->
+        <test-method status="PASS" signature="beforeTestTasks()[pri:0, instance:com.owm.testcases.SearchWeatherForValidCityTest@3dd3bcd]" name="beforeTestTasks" is-config="true" duration-ms="24690" started-at="2018-10-11T16:36:36Z" finished-at="2018-10-11T16:37:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestTasks -->
+        <test-method status="PASS" signature="searchValidCityWeatherTest()[pri:0, instance:com.owm.testcases.SearchWeatherForValidCityTest@3dd3bcd]" name="searchValidCityWeatherTest" duration-ms="13695" started-at="2018-10-11T16:37:01Z" finished-at="2018-10-11T16:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchValidCityWeatherTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.owm.testcases.SearchWeatherForValidCityTest@3dd3bcd]" name="tearDown" is-config="true" duration-ms="735" started-at="2018-10-11T16:37:15Z" finished-at="2018-10-11T16:37:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.owm.testcases.SearchWeatherForValidCityTest -->
+      <class name="com.owm.testcases.WeatherMapHomePageTest">
+        <test-method status="PASS" signature="getMethodNameInReport(java.lang.reflect.Method)[pri:0, instance:com.owm.testcases.WeatherMapHomePageTest@50f8360d]" name="getMethodNameInReport" is-config="true" duration-ms="10" started-at="2018-10-11T16:35:05Z" finished-at="2018-10-11T16:35:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.owm.testcases.WeatherMapHomePageTest.homePageTitleTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodNameInReport -->
+        <test-method status="PASS" signature="beforeTestTasks()[pri:0, instance:com.owm.testcases.WeatherMapHomePageTest@50f8360d]" name="beforeTestTasks" is-config="true" duration-ms="14724" started-at="2018-10-11T16:35:05Z" finished-at="2018-10-11T16:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestTasks -->
+        <test-method status="PASS" signature="homePageTitleTest()[pri:0, instance:com.owm.testcases.WeatherMapHomePageTest@50f8360d]" name="homePageTitleTest" duration-ms="19" started-at="2018-10-11T16:35:19Z" finished-at="2018-10-11T16:35:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.owm.testcases.WeatherMapHomePageTest@50f8360d]" name="tearDown" is-config="true" duration-ms="994" started-at="2018-10-11T16:35:19Z" finished-at="2018-10-11T16:35:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="getMethodNameInReport(java.lang.reflect.Method)[pri:0, instance:com.owm.testcases.WeatherMapHomePageTest@50f8360d]" name="getMethodNameInReport" is-config="true" duration-ms="1" started-at="2018-10-11T16:35:20Z" finished-at="2018-10-11T16:35:20Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.owm.testcases.WeatherMapHomePageTest.openWeatherMapLogoTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodNameInReport -->
+        <test-method status="PASS" signature="beforeTestTasks()[pri:0, instance:com.owm.testcases.WeatherMapHomePageTest@50f8360d]" name="beforeTestTasks" is-config="true" duration-ms="28789" started-at="2018-10-11T16:35:20Z" finished-at="2018-10-11T16:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestTasks -->
+        <test-method status="PASS" signature="openWeatherMapLogoTest()[pri:0, instance:com.owm.testcases.WeatherMapHomePageTest@50f8360d]" name="openWeatherMapLogoTest" duration-ms="46" started-at="2018-10-11T16:35:49Z" finished-at="2018-10-11T16:35:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWeatherMapLogoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.owm.testcases.WeatherMapHomePageTest@50f8360d]" name="tearDown" is-config="true" duration-ms="752" started-at="2018-10-11T16:35:49Z" finished-at="2018-10-11T16:35:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.owm.testcases.WeatherMapHomePageTest -->
+      <class name="com.owm.testcases.CentigradeToFarenheitTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.owm.testcases.CentigradeToFarenheitTest@35fb3008]" name="setup" is-config="true" duration-ms="207" started-at="2018-10-11T16:35:04Z" finished-at="2018-10-11T16:35:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="getMethodNameInReport(java.lang.reflect.Method)[pri:0, instance:com.owm.testcases.CentigradeToFarenheitTest@35fb3008]" name="getMethodNameInReport" is-config="true" duration-ms="2" started-at="2018-10-11T16:37:15Z" finished-at="2018-10-11T16:37:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.owm.testcases.CentigradeToFarenheitTest.checkFarenheitTest() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getMethodNameInReport -->
+        <test-method status="PASS" signature="beforeTestTasks()[pri:0, instance:com.owm.testcases.CentigradeToFarenheitTest@35fb3008]" name="beforeTestTasks" is-config="true" duration-ms="20302" started-at="2018-10-11T16:37:15Z" finished-at="2018-10-11T16:37:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestTasks -->
+        <test-method status="PASS" signature="checkFarenheitTest()[pri:0, instance:com.owm.testcases.CentigradeToFarenheitTest@35fb3008]" name="checkFarenheitTest" duration-ms="30822" started-at="2018-10-11T16:37:36Z" finished-at="2018-10-11T16:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkFarenheitTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.owm.testcases.CentigradeToFarenheitTest@35fb3008]" name="tearDown" is-config="true" duration-ms="744" started-at="2018-10-11T16:38:07Z" finished-at="2018-10-11T16:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.owm.testcases.CentigradeToFarenheitTest -->
+    </test> <!-- Prudential Weathermap Test Cases -->
+  </suite> <!-- Prudential Weathermap Test -->
+</testng-results>
