@@ -14,3 +14,4 @@ Apart from that each test can be run individually as testNG test.
 9. Custom listener has been used to send test pass fail status to extent report.
 10. log4j is also added. Three log file generated.
 11. Use bellow git repository with master branch to get this code to Jenkins CI pipeline
+https://github.com/prasanta-ganguly/PrudentialWeatherMap
